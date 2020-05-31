@@ -55,7 +55,7 @@ test_image=np.expand_dims(test_image,axis=0)
 
 training_set.class_indices
 result=classifier.predict(test_image)
-if(resukt[0][0]==1):
+if(result[0][0]==1):
 	print("Dog")
 else:
 	print("Cat")
